@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# Fitted model artifacts (large binaries) — regenerate via scripts/train_all.py
+models/*.joblib
+
